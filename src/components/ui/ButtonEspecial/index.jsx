@@ -1,6 +1,6 @@
 import { Button } from "@chakra-ui/react";
 
-export const TextEspecial = ({ texto, fontSize }) => {
+export const ButtonEspecial = ({ texto, fontSize }) => {
   return (
     <Button
       fontSize={fontSize}

@@ -1,6 +1,6 @@
 export { TextEspecial, ButtonEspecial } from "./ui/index";
 
-export { default as Section } from "./Section/index";
-export { default as Navbar } from "./Navbar/index";
-export { default as Header } from "./Header/index";
-export { default as Footer } from "./Footer/index";
+export { Section } from "./Section/index";
+export { Navbar } from "./Navbar/index";
+export { Header } from "./Header/index";
+export { Footer } from "./Footer/index";

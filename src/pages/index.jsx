@@ -1,3 +1,4 @@
+import { Text } from "@chakra-ui/react";
 import { Footer, Header, Navbar, Section } from "../components";
 
 function LandingPage() {
@@ -7,6 +8,7 @@ function LandingPage() {
       <Header />
       <Section />
       <Footer />
+      <Text fontFamily="especial"> teste</Text>
     </>
   );
 }
