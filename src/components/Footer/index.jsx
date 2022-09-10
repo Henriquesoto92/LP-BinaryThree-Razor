@@ -3,7 +3,7 @@ import PreFooter from "./preFooter";
 
 export const Footer = () => {
   return (
-    <Flex>
+    <Flex as="footer" w="full" justify="center" flexDir="column">
       <PreFooter />
       <Text> isso é um footer</Text>
     </Flex>
