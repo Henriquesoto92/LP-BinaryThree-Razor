@@ -18,7 +18,6 @@ export const CardFeature = ({ icon, heading, text }) => {
       >
         <Icon as={icon} fontSize="34px" color="white" />
       </Flex>
-      {/* <IconMap icon={FaAd} /> */}
       <Heading
         fontSize="24px"
         lineHeight="34px"

@@ -1,5 +1,5 @@
-import { Flex, Text, Heading } from "@chakra-ui/react";
-import { TextEspecial } from "../ui";
+import { Flex } from "@chakra-ui/react";
+import { HeadingSections, TextEspecial } from "../ui";
 
 export const SectionWorkstation = () => {
   return (
@@ -12,17 +12,11 @@ export const SectionWorkstation = () => {
       alignItems="center"
       flexDir="column"
     >
-      <Heading display="flex">
-        <Text fontFamily="especial" color="purple.100" w="fit-content">
-          workstations
-        </Text>
-        que não tem medo de pegar no pesado
-      </Heading>
-      <Text>
-        Máquinas para uso em computação gráfica, renderização profissional,
-        simulações em realtime, análises complexas de dados e softwares de alta
-        exigência.
-      </Text>
+      <HeadingSections
+        HighlightTitle="workstations"
+        title="workstations que não tem medo de pegar no pesado"
+        text="Máquinas para uso em computação gráfica, renderização profissional, simulações em realtime, análises complexas de dados e softwares de alta exigência."
+      />
       <TextEspecial texto="especificações técnicas" fontSize="30px" />
       <TextEspecial texto="especificações técnicas" fontSize="30px" />
       <TextEspecial texto="especificações técnicas" fontSize="30px" />

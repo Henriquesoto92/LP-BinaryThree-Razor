@@ -9,8 +9,9 @@ import {
   AiFillPhone,
 } from "react-icons/ai";
 import { CardFeature } from "./CardFeature";
+import { HeadingSections } from "../ui/HeadingSections";
 
-const featureQtd = [
+const featureArray = [
   {
     heading: "Licitações",
     text: "Orçamentos personalizados para processos administrativos e licitações, tanto para órgão públicos, quanto para o setor privado",
@@ -53,6 +54,13 @@ export const SectionFeature = () => {
       justify="center"
       px="10vh"
     >
+      <HeadingSections
+        HighlightTitle="Aumentar a Performance"
+        title="O nosso negócio é Aumentar a Performance do seu negócio"
+        text="Máquinas para uso em computação gráfica, renderização profissional,
+        simulações em realtime, análises complexas de dados e softwares de alta
+        exigência."
+      />
       <Heading display="flex" alignSelf="center">
         <Text as="span"> O nosso negócio é </Text>
         <Text
@@ -71,7 +79,7 @@ export const SectionFeature = () => {
         exigência.
       </Text>
       <SimpleGrid minChildWidth="340px" spacing="64px" justifyItems="center">
-        {featureQtd.map((feature) => (
+        {featureArray.map((feature) => (
           <CardFeature
             key={feature.heading}
             icon={feature.icon}
@@ -79,6 +87,11 @@ export const SectionFeature = () => {
             text={feature.text}
           />
         ))}
+        <CardFeature
+          icon={"nome do icone"}
+          heading={"aqui é um heading"}
+          text={"aqui é um texto"}
+        />
       </SimpleGrid>
     </Flex>
   );
