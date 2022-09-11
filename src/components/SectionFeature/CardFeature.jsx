@@ -1,6 +1,6 @@
 import { Flex, Icon, Text, Heading } from "@chakra-ui/react";
 
-export const Feature = ({ icon, heading, text }) => {
+export const CardFeature = ({ icon, heading, text }) => {
   return (
     <Flex
       flexDir="column"

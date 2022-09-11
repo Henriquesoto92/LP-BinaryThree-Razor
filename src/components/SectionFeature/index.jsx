@@ -1,6 +1,5 @@
 import { Flex, SimpleGrid } from "@chakra-ui/react";
 import { Heading, Text } from "@chakra-ui/react";
-import { Feature } from "../index";
 import { RiFilePaperFill } from "react-icons/ri";
 import {
   AiFillTool,
@@ -9,6 +8,7 @@ import {
   AiFillBulb,
   AiFillPhone,
 } from "react-icons/ai";
+import { CardFeature } from "./CardFeature";
 
 const featureQtd = [
   {
@@ -43,7 +43,7 @@ const featureQtd = [
   },
 ];
 
-export const Section = () => {
+export const SectionFeature = () => {
   return (
     <Flex
       flexDir="column"
@@ -54,20 +54,25 @@ export const Section = () => {
       px="10vh"
     >
       <Heading display="flex" alignSelf="center">
-        <Text as="span"> O nosso negócio é  </Text>
-        <Text as="span" fontFamily="especial" color="purple.100" w="fit-content">
+        <Text as="span"> O nosso negócio é </Text>
+        <Text
+          as="span"
+          fontFamily="especial"
+          color="purple.100"
+          w="fit-content"
+        >
           {"Aumentar a Performance"}
         </Text>
-        <Text as="span">
-        {" do seu negócio"}
-        </Text> 
+        <Text as="span">{" do seu negócio"}</Text>
       </Heading>
-      <Text  textAlign="center" marginBottom="40px">
-        Máquinas para uso em computação gráfica, renderização profissional, simulações em realtime, análises complexas de dados e softwares de alta exigência.
+      <Text textAlign="center" marginBottom="40px">
+        Máquinas para uso em computação gráfica, renderização profissional,
+        simulações em realtime, análises complexas de dados e softwares de alta
+        exigência.
       </Text>
       <SimpleGrid minChildWidth="340px" spacing="64px" justifyItems="center">
         {featureQtd.map((feature) => (
-          <Feature
+          <CardFeature
             key={feature.heading}
             icon={feature.icon}
             heading={feature.heading}

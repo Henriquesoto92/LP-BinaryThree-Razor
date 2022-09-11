@@ -1,12 +1,19 @@
-import { Footer, Header, Navbar, Section, Workstation, Testimonials } from "../components";
+import {
+  Footer,
+  Header,
+  Navbar,
+  SectionFeature,
+  SectionWorkstation,
+  Testimonials,
+} from "../components";
 
 function LandingPage() {
   return (
     <>
       <Navbar />
       <Header />
-      <Section />
-      <Workstation />
+      <SectionFeature />
+      <SectionWorkstation />
       <Testimonials />
       <Footer />
     </>

@@ -46,13 +46,14 @@ function PreFooter() {
       w="full"
       justify="center"
       alignItems="center"
+      position="absolute"
     >
       <Flex
         flexDir={["column", "row"]}
+        position="absolute"
         justify="start"
         alignItems="center"
-        gap={["0px", "10px"]}
-        w={["300px", "575px"]}
+        w={["300px", "fit-content"]}
       >
         <Flex justify="start" alignItems="center" gap="10px" w="fit-content">
           <Image
@@ -65,11 +66,10 @@ function PreFooter() {
             src="../../../public/images/logo-nome-razor.svg"
             alt="logo-nome-razor"
           />
-
-          <Text> é para: </Text>
+          <Text whiteSpace="nowrap"> é para: </Text>
         </Flex>
-        <Text fontFamily="especial" color="purple.100" fontSize="45px">
-          {" "}
+
+        <Text fontFamily="especial" color="purple.100" fontSize="45px" l="10px">
           {word}
         </Text>
       </Flex>
