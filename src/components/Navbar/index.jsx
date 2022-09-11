@@ -10,7 +10,18 @@ export const Navbar = () => {
       flexDir="column"
       alignItems="center"
     >
-      <Image w="200px" src="../../../public/images/logo_branca_sem_fundo.png" />
+      <Flex justify="start" alignItems="center" gap="10px" w="fit-content">
+        <Image
+          h="60px"
+          src="../../../public/images/logo-razor.svg"
+          alt="logo-razor"
+        />
+        <Image
+          h="40px"
+          src="../../../public/images/logo-nome-razor.svg"
+          alt="logo-nome-razor"
+        />
+      </Flex>
       <Flex gap="100">
         <Link> Empresa </Link>
         <Link> Produto </Link>

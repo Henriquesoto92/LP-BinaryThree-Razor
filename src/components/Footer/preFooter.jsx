@@ -61,6 +61,7 @@ function PreFooter() {
             alt="logo-razor"
           />
           <Image
+            h="40px"
             src="../../../public/images/logo-nome-razor.svg"
             alt="logo-nome-razor"
           />

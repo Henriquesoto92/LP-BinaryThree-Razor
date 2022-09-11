@@ -1,14 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" 
-version="1.0" 
-width="74.000000pt"
-height="89.000000pt" 
-viewBox="0 0 74.000000 89.000000" 
-preserveAspectRatio="xMidYMid meet" 
-fill="#ffffff">
-<metadata>
-Created by potrace 1.16, written by Peter Selinger 2001-2019
-</metadata>
-<g xmlns="http://www.w3.org/2000/svg" transform="translate(0.000000,89.000000) scale(0.100000,-0.100000)">
-<path d="M263 683 l-133 -75 0 -163 0 -163 133 -76 c73 -42 137 -76 142 -76 4 0 68 35 142 77 l133 77 0 161 0 160 -134 78 c-73 42 -138 77 -142 77 -5 -1 -69 -35 -141 -77z m242 -66 l90 -53 3 -119 2 -120 -69 -37 c-38 -21 -74 -38 -80 -38 -6 0 -11 40 -13 111 l-3 112 -82 46 c-46 26 -87 51 -93 57 -7 7 13 23 63 52 39 23 77 42 82 42 6 0 51 -24 100 -53z m-206 -158 l71 -41 0 -83 c0 -46 -3 -86 -7 -88 -5 -3 -41 14 -80 37 l-73 41 0 88 c0 48 4 87 9 87 5 0 41 -18 80 -41z"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="52" height="59" viewBox="0 0 52 59" xml:space="preserve">
+<desc>Created with Fabric.js 3.6.3</desc>
+<defs>
+</defs>
+<g transform="matrix(0.09 0 0 -0.09 26.1 29.9)"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-405, -445)" d="M 263 683 l -133 -75 l 0 -163 l 0 -163 l 133 -76 c 73 -42 137 -76 142 -76 c 4 0 68 35 142 77 l 133 77 l 0 161 l 0 160 l -134 78 c -73 42 -138 77 -142 77 c -5 -1 -69 -35 -141 -77 z m 242 -66 l 90 -53 l 3 -119 l 2 -120 l -69 -37 c -38 -21 -74 -38 -80 -38 c -6 0 -11 40 -13 111 l -3 112 l -82 46 c -46 26 -87 51 -93 57 c -7 7 13 23 63 52 c 39 23 77 42 82 42 c 6 0 51 -24 100 -53 z m -206 -158 l 71 -41 l 0 -83 c 0 -46 -3 -86 -7 -88 c -5 -3 -41 14 -80 37 l -73 41 l 0 88 c 0 48 4 87 9 87 c 5 0 41 -18 80 -41 z" stroke-linecap="round" />
 </g>
 </svg>
