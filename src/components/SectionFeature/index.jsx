@@ -1,5 +1,4 @@
 import { Flex, SimpleGrid } from "@chakra-ui/react";
-import { Heading, Text } from "@chakra-ui/react";
 import { RiFilePaperFill } from "react-icons/ri";
 import {
   AiFillTool,
@@ -61,23 +60,6 @@ export const SectionFeature = () => {
         simulações em realtime, análises complexas de dados e softwares de alta
         exigência."
       />
-      <Heading display="flex" alignSelf="center">
-        <Text as="span"> O nosso negócio é </Text>
-        <Text
-          as="span"
-          fontFamily="especial"
-          color="purple.100"
-          w="fit-content"
-        >
-          {"Aumentar a Performance"}
-        </Text>
-        <Text as="span">{" do seu negócio"}</Text>
-      </Heading>
-      <Text textAlign="center" marginBottom="40px">
-        Máquinas para uso em computação gráfica, renderização profissional,
-        simulações em realtime, análises complexas de dados e softwares de alta
-        exigência.
-      </Text>
       <SimpleGrid minChildWidth="340px" spacing="64px" justifyItems="center">
         {featureArray.map((feature) => (
           <CardFeature
@@ -87,11 +69,6 @@ export const SectionFeature = () => {
             text={feature.text}
           />
         ))}
-        <CardFeature
-          icon={"nome do icone"}
-          heading={"aqui é um heading"}
-          text={"aqui é um texto"}
-        />
       </SimpleGrid>
     </Flex>
   );

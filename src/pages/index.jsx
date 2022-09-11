@@ -1,6 +1,7 @@
+import { Flex } from "@chakra-ui/react";
 import {
   Footer,
-  Header,
+  SectionHeader,
   Navbar,
   SectionFeature,
   SectionWorkstation,
@@ -9,14 +10,16 @@ import {
 
 function LandingPage() {
   return (
-    <>
+    <Flex flexDir="column" gap="5vh">
       <Navbar />
-      <Header />
-      <SectionFeature />
-      <SectionWorkstation />
-      <Testimonials />
+      <Flex flexDir="column" justifyItems="center" px="10vw" gap="5vh">
+        <SectionHeader />
+        <SectionFeature />
+        <SectionWorkstation />
+        <Testimonials />
+      </Flex>
       <Footer />
-    </>
+    </Flex>
   );
 }
 

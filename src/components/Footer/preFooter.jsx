@@ -1,4 +1,4 @@
-import { Flex, Image, Text } from "@chakra-ui/react";
+import { Flex, Highlight, Image, Text } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
 
 const words = [
@@ -53,24 +53,32 @@ function PreFooter() {
         position="absolute"
         justify="start"
         alignItems="center"
-        w={["300px", "fit-content"]}
+        w={["300px", "550px"]}
+        gap="10px"
       >
-        <Flex justify="start" alignItems="center" gap="10px" w="fit-content">
-          <Image
-            h="60px"
-            src="../../../public/images/logo-razor.svg"
-            alt="logo-razor"
-          />
-          <Image
-            h="40px"
-            src="../../../public/images/logo-nome-razor.svg"
-            alt="logo-nome-razor"
-          />
-          <Text whiteSpace="nowrap"> é para: </Text>
-        </Flex>
-
-        <Text fontFamily="especial" color="purple.100" fontSize="45px" l="10px">
-          {word}
+        <Image
+          h="60px"
+          src="../../../public/images/logo-razor.svg"
+          alt="logo-razor"
+        />
+        <Image
+          h="40px"
+          src="../../../public/images/logo-nome-razor.svg"
+          alt="logo-nome-razor"
+        />
+        <Text whiteSpace="nowrap" textAlign="center">
+          <Highlight
+            query={word}
+            color="purple.100"
+            styles={{
+              py: "1",
+              fontFamily: "especial",
+              fontSize: "45px",
+              color: "purple.100",
+            }}
+          >
+            {`é para:  ${word}`}
+          </Highlight>
         </Text>
       </Flex>
     </Flex>
