@@ -40,4 +40,7 @@ export const theme = extendTheme({
       },
     },
   },
+  headings: {
+    fontFamily: "Roboto, sans-serif",
+  },
 });
