@@ -46,11 +46,9 @@ function PreFooter() {
       w="full"
       justify="center"
       alignItems="center"
-      position="absolute"
     >
       <Flex
         flexDir={["column", "row"]}
-        position="absolute"
         justify="start"
         alignItems="center"
         w={["300px", "550px"]}

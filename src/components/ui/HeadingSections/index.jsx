@@ -5,22 +5,27 @@ export const HeadingSections = ({ HighlightTitle, title, text }) => {
     <Flex
       h="auto"
       w={["full"]}
-      px="10vh"
       marginTop="45px"
       marginBottom="45px"
       alignItems="center"
       flexDir="column"
       gap="30px"
     >
-      <Heading fontSize="40px" textAlign="center">
+      <Heading
+        fontSize="40px"
+        lineHeigth="50px"
+        textAlign="center"
+        fontWeight="800"
+      >
         <Highlight
           query={HighlightTitle}
           color="purple.100"
           styles={{
             py: "1",
             fontFamily: "especial",
-            fontSize: "40px",
+            fontSize: "45px",
             color: "purple.100",
+            whiteSpace: "none",
           }}
         >
           {title}
