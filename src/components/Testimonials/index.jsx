@@ -1,12 +1,13 @@
-import { Flex, Text, Heading, Avatar, Divider } from "@chakra-ui/react";
+import { Flex, Text, Heading, SimpleGrid, } from "@chakra-ui/react";
+import { HeadingSections } from "../ui/HeadingSections";
 import { CardTestimonials } from "./CardTestimonials";
 
 const testimonialsArray = [
   {
     image: "https://bit.ly/dan-abramov",
-    text: "Essa pessoa fez o site site site fez site Essa pessoa fez o site site site fez site Essa pessoa fez o site site site fez site Essa pessoa fez o site site site fez site Essa pessoa fez o site site site fez site Essa pessoa fez o site site site fez site Essa pessoa fez o site site site fez site",
+    text: "Meu nome é Matheus, sou estudante de programação, com 2 anos de experiencia em Marketing Digital e Edição de Videos. Apaixonado por tecnologia e games desde pequeno, sonho em um dia trabalhar na area de Desenvolvimento de Games",
     name: "Matheus Van Dyke",
-    role: "UX / Design",
+    role: "UX-UI / Dev",
   },
   {
     image: "https://bit.ly/dan-abramov",
@@ -37,23 +38,22 @@ export const Testimonials = () => {
       marginBottom="45px"
       alignItems="center"
       flexDir="column">
-      <Heading display="flex">
-        <Text fontFamily="especial" color="purple.100" w="fit-content">
-          {"Criadores"}
-        </Text>{"  da Landing Page"}
-      </Heading>
-      <Text textAlign="center" marginLeft="">
-        Squad 11 - BinaryThree
-        Agradecemos a oportunidade de mostrar o nosso projeto de Landing Page para a nossa Sponsor Razor, que, alem de fazer produtos de altissima qualidade, tambem investe em alunos de programação
-      </Text>
-      {testimonialsArray.map((testimonial) => (
-        <CardTestimonials
-          name={testimonial.name}
-          text={testimonial.text}
-          image={testimonial.image}
-          role={testimonial.role}
-        />
-      ))}
+      <HeadingSections
+        HighlightTitle="Criadores"
+        title="Criadores da Landing Page"
+        text="Squad 11 - BinaryThree
+        Agradecemos a oportunidade de mostrar o nosso projeto de Landing Page para a nossa Sponsor Razor, que, alem de fazer produtos de altissima qualidade, tambem investe em alunos de programação"
+      />
+      <SimpleGrid minChildWidth="250px" spacing="20px" justifyItems="center">
+        {testimonialsArray.map((testimonial) => (
+          <CardTestimonials
+            name={testimonial.name}
+            text={testimonial.text}
+            image={testimonial.image}
+            role={testimonial.role}
+          />
+        ))}
+      </SimpleGrid>
     </Flex>
   );
 };
