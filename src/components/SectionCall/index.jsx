@@ -1,17 +1,17 @@
 import { Flex, Image, Button, useMediaQuery } from "@chakra-ui/react";
 import { HeadingSections } from "../ui/HeadingSections";
 
-export const SectionZAP = () => {
+export const SectionCall = () =>{
     const [isLargerThan700] = useMediaQuery('(min-width: 700px)')
 
-    return (
-        <Flex flexDir={isLargerThan700 ? "row" : "column"} justify="center" alignItems="center" >
-            <Image src="../public/images/logo-razor-zap.svg" alt="Logo razor"/>
+    return(
+        <Flex flexDir={isLargerThan700 ? "row-reverse" : "column"} justify="center" alignItems="center" >
+            <Image src="../public/images/logo-razor2.png" alt="Logo razor" w="238" h ="238" borderRadius="16px" />
             <Flex flexDir="column" maxW="428px" align="center">
-                <HeadingSections HighlightTitle="ZAP" title="Ainda tem dúvidas? Chama no ZAP" text="" />
+                <HeadingSections HighlightTitle="Contate-nos!" title="Ficou interessade? Contate-nos!" text="" />
                 <Button
                     as="a"
-                    href="https://api.whatsapp.com/send?phone=555430466350&text=Olá. Estou no site da Razor e gostaria de mais informações."
+                    href="https://razor.com.br/contato/"
                     bg="purple.100"
                     color="#C5D2DC"
                     fontWeight="500"
@@ -20,9 +20,9 @@ export const SectionZAP = () => {
                     py="12px"
                     w="150px"
                 >
-                    Whatsapp
+                    Contato
                 </Button>
             </Flex>
         </Flex>
-    );
+    )
 }

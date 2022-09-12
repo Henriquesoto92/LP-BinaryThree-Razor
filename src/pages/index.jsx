@@ -7,6 +7,7 @@ import {
   SectionWorkstation,
   Testimonials,
   SectionZAP,
+  SectionCall,
 } from "../components";
 
 function LandingPage() {
@@ -19,6 +20,7 @@ function LandingPage() {
         <SectionWorkstation />
         <SectionZAP />
         <Testimonials />
+        <SectionCall />
       </Flex>
       <Footer />
     </Flex>
