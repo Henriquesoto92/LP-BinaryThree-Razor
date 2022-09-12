@@ -49,37 +49,76 @@ function PreFooter() {
       py="10px"
     >
       <Flex
-        flexDir={["column", "row"]}
-        justify={isLargerThan700 ? "center" : "start"}
-        flexWrap={isLargerThan700 ? "wrap" : "nowrap"}
+        flexDir={["column", !isLargerThan700 ? "column" : "row"]}
+        justify={!isLargerThan700 ? "center" : "start"}
+        flexWrap={!isLargerThan700 ? "wrap" : "nowrap"}
         alignItems="center"
         w={["300px", "550px"]}
         gap="10px"
       >
-        <Image
-          h="60px"
-          src="../../../public/images/logo-razor.svg"
-          alt="logo-razor"
-        />
-        <Image
-          h="40px"
-          src="../../../public/images/logo-nome-razor.svg"
-          alt="logo-nome-razor"
-        />
-        <Text whiteSpace="nowrap" textAlign="center">
-          <Highlight
-            query={word}
-            color="purple.100"
-            styles={{
-              py: "1",
-              fontFamily: "especial",
-              fontSize: "45px",
-              color: "purple.100",
-            }}
-          >
-            {`é para:  ${word}`}
-          </Highlight>
-        </Text>
+        {!isLargerThan700 ? (
+          <Flex gap="10px" alignItems="center">
+            <Image
+              h="60px"
+              src="../../../public/images/logo-razor.svg"
+              alt="logo-razor"
+            />
+            <Image
+              h="40px"
+              src="../../../public/images/logo-nome-razor.svg"
+              alt="logo-nome-razor"
+            />
+          </Flex>
+        ) : (
+          <>
+            <Image
+              h="60px"
+              src="../../../public/images/logo-razor.svg"
+              alt="logo-razor"
+            />
+            <Image
+              h="40px"
+              src="../../../public/images/logo-nome-razor.svg"
+              alt="logo-nome-razor"
+            />
+          </>
+        )}
+        {isLargerThan700 ? (
+          <Text whiteSpace="nowrap" textAlign="center">
+            <Highlight
+              query={word}
+              color="purple.100"
+              styles={{
+                py: "1",
+                fontFamily: "especial",
+                fontSize: "45px",
+                color: "purple.100",
+              }}
+            >
+              {`é para:  ${word}`}
+            </Highlight>
+          </Text>
+        ) : (
+          <Flex flexDir="column">
+            <Text whiteSpace="nowrap" textAlign="center">
+              é para:
+            </Text>
+            <Text whiteSpace="nowrap" textAlign="center">
+              <Highlight
+                query={word}
+                color="purple.100"
+                styles={{
+                  py: "1",
+                  fontFamily: "especial",
+                  fontSize: "45px",
+                  color: "purple.100",
+                }}
+              >
+                {word}
+              </Highlight>
+            </Text>
+          </Flex>
+        )}
       </Flex>
     </Flex>
   );

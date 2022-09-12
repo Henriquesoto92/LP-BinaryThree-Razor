@@ -24,4 +24,3 @@ const Fonts = () => (
 );
 
 export default Fonts;
-export {};

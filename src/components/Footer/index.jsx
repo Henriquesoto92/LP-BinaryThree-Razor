@@ -1,43 +1,27 @@
-import { Flex, IconButton, Text } from "@chakra-ui/react";
+import { Flex, IconButton, Text, useMediaQuery } from "@chakra-ui/react";
 import PreFooter from "./preFooter";
-import {
-  FaFacebook,
-  FaGithub,
-  FaInstagram,
-  FaLinkedin,
-  FaTwitter,
-} from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const socialConst = [
   {
     aria: "linkedin",
-    href: "https://linkedin.com",
+    href: "https://www.linkedin.com/company/razor-computadores-do-brasil/",
     icon: <FaLinkedin />,
-  },
-
-  {
-    aria: "Twitter",
-    href: "https://Twitter.com",
-    icon: <FaTwitter />,
-  },
-  {
-    aria: "Github",
-    href: "https://github.com",
-    icon: <FaGithub />,
   },
   {
     aria: "Instagram",
-    href: "https://Instagram.com",
+    href: "https://www.instagram.com/razor_computadores/",
     icon: <FaInstagram />,
   },
   {
     aria: "Facebook",
-    href: "https://Facebook.com",
+    href: "https://www.facebook.com/razorcomp/",
     icon: <FaFacebook />,
   },
 ];
 
 export const Footer = () => {
+  const [isLargerThan700] = useMediaQuery("(min-width: 700px)");
   return (
     <Flex
       as="footer"
@@ -56,7 +40,7 @@ export const Footer = () => {
         color="#9BA9B4"
         alignItems="center"
         justify="center"
-        flexDir={["column", "row"]}
+        flexDir={["column", isLargerThan700 ? "row" : "column"]}
         gap="30px"
       >
         <Flex flexDir="column" w="300px" justify="center" alignItems="center">

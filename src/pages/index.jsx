@@ -5,7 +5,7 @@ import {
   Navbar,
   SectionFeature,
   SectionWorkstation,
-  Testimonials,
+  SectionTestimonials,
   SectionZAP,
   SectionCall,
 } from "../components";
@@ -19,7 +19,7 @@ function LandingPage() {
         <SectionFeature />
         <SectionWorkstation />
         <SectionZAP />
-        <Testimonials />
+        <SectionTestimonials />
         <SectionCall />
       </Flex>
       <Footer />
