@@ -28,27 +28,14 @@ const workstationArray = [
 
 export const SectionWorkstation = () => {
   return (
-    <Flex
-      h="auto"
-      w="full"
-      marginBottom="45px"
-      alignItems="center"
-      flexDir="column"
-      gap="30px"
-    >
+    <Flex h="auto" w="full" alignItems="center" flexDir="column" gap="30px">
       <HeadingSections
         HighlightTitle="workstations"
         title="workstations que não tem medo de pegar no pesado"
         text="Máquinas para uso em computação gráfica, renderização profissional, simulações em realtime, análises complexas de dados e softwares de alta exigência."
       />
       <Flex />
-      <Flex
-        alignItems="center"
-        flexDir="column"
-        height="100%"
-        width="100%"
-        gap="50px"
-      >
+      <Flex alignItems="center" flexDir="column" h="100%" w="100%" gap="50px">
         {workstationArray.map((workstation) => (
           <CardWorkstation
             key={workstation.title}

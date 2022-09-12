@@ -45,7 +45,14 @@ const featureArray = [
 
 export const SectionFeature = () => {
   return (
-    <Flex flexDir="column" as="header" h="auto" w="full" justify="center">
+    <Flex
+      flexDir="column"
+      as="header"
+      h="auto"
+      w="full"
+      justify="center"
+      gap="30px"
+    >
       <HeadingSections
         HighlightTitle="Aumentar a Performance"
         title="O nosso negócio é Aumentar a Performance do seu negócio"

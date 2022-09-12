@@ -30,19 +30,14 @@ const testimonialsArray = [
 ];
 export const SectionTestimonials = () => {
   return (
-    <Flex h="auto" w="full" alignItems="center" flexDir="column" gap="50px">
+    <Flex h="auto" w="full" alignItems="center" flexDir="column" gap="30px">
       <HeadingSections
         HighlightTitle="Criadores"
         title="Criadores da Landing Page"
         text="Squad 11 - BinaryThree
         Agradecemos a oportunidade de mostrar o nosso projeto de Landing Page para a nossa Sponsor Razor, que, alem de fazer produtos de altissima qualidade, tambem investe em alunos de programação"
       />
-      <SimpleGrid
-        
-        minChildWidth="250px"
-        spacing="20px"
-        justifyItems="center"
-      >
+      <SimpleGrid minChildWidth="250px" spacing="20px" justifyItems="center">
         {testimonialsArray.map((testimonial) => (
           <CardTestimonials
             key={testimonial.name}

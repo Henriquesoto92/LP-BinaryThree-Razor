@@ -81,7 +81,6 @@ export const CardWorkstation = ({
           height="100%"
           width="100%"
           objectFit="cover"
-          padding="12px"
           borderRadius="12px"
           src={image}
           alt={alt}
