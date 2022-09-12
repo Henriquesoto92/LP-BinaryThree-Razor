@@ -6,6 +6,7 @@ import {
   SectionFeature,
   SectionWorkstation,
   Testimonials,
+  SectionZAP,
 } from "../components";
 
 function LandingPage() {
@@ -16,6 +17,7 @@ function LandingPage() {
         <SectionHeader />
         <SectionFeature />
         <SectionWorkstation />
+        <SectionZAP />
         <Testimonials />
       </Flex>
       <Footer />

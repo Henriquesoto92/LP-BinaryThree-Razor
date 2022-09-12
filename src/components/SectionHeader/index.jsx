@@ -2,15 +2,7 @@ import { Button, Flex, Heading, Image, Text } from "@chakra-ui/react";
 
 export const SectionHeader = () => {
   return (
-    <Flex
-      h="auto"
-      w="full"
-      marginTop="45px"
-      marginBottom="45px"
-      alignItems="center"
-      flexDir="column"
-      gap="30px"
-    >
+    <Flex h="auto" w="full" alignItems="center" flexDir="column" gap="30px">
       <Heading
         fontSize="52px"
         lineHeigth="62px"
@@ -39,7 +31,7 @@ export const SectionHeader = () => {
           fontWeight="500"
           fontSize="16px"
           lineHeight="24px"
-          py="12px"
+          h="50px"
           w="150px"
         >
           Descubra
@@ -50,7 +42,7 @@ export const SectionHeader = () => {
           fontWeight="500"
           fontSize="16px"
           lineHeight="24px"
-          py="12px"
+          h="50px"
           w="150px"
         >
           Saiba Mais
