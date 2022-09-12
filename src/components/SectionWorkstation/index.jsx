@@ -41,7 +41,7 @@ export const SectionWorkstation = () => {
           </CardImg>
           <div>
             <h2>
-              <span>Chip Gráfico</span> que não arrega{" "}
+              <span>Processador</span> Workaholic
             </h2>
             <p>
               Máquinas com processadores de última geração Intel ou AMD e até 64
@@ -53,7 +53,7 @@ export const SectionWorkstation = () => {
         <BoxWorkstation>
           <div>
             <h2>
-              <span>Chip Gráfico</span> que não arrega{" "}
+            <span>Design</span> sem frescura
             </h2>
             <p>
               Menos RGB, mais performance. As nossas máquinas não lembram um
