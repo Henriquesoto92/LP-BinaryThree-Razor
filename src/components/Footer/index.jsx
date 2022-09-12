@@ -42,13 +42,23 @@ export const Footer = () => {
     <Flex
       as="footer"
       w="full"
-      h="300px"
       justify="space-between"
       flexDir="column"
       alignItems="center"
+      gap="30px"
+      pb="30px"
     >
       <PreFooter />
-      <Flex w="full" fontSize="16px" lineHeight="24px" color="#9BA9B4">
+      <Flex
+        w="full"
+        fontSize="16px"
+        lineHeight="24px"
+        color="#9BA9B4"
+        alignItems="center"
+        justify="center"
+        flexDir={["column", "row"]}
+        gap="30px"
+      >
         <Flex flexDir="column" w="300px" justify="center" alignItems="center">
           <Text fontWeight="700">Razor do Brasil LTDA</Text>
           <Text>19.847.182/0001-69</Text>
@@ -66,7 +76,7 @@ export const Footer = () => {
           <Text>9h às 12h e 14h às 18h</Text>
         </Flex>
       </Flex>
-      <Flex>
+      <Flex w="300px" justify="space-between" alignItems="center">
         {socialConst.map((Social) => (
           <IconButton
             key={Social.aria}

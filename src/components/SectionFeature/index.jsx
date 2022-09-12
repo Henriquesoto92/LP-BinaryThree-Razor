@@ -53,7 +53,7 @@ export const SectionFeature = () => {
         simulações em realtime, análises complexas de dados e softwares de alta
         exigência."
       />
-      <SimpleGrid minChildWidth="340px" spacing="64px" justifyItems="center">
+      <SimpleGrid minChildWidth="340px" spacing="30px" justifyItems="center">
         {featureArray.map((feature) => (
           <CardFeature
             key={feature.heading}

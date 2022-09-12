@@ -1,4 +1,4 @@
-import { Flex, Highlight, Image, Text } from "@chakra-ui/react";
+import { Flex, Highlight, Image, Text, useMediaQuery } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
 
 const words = [
@@ -12,6 +12,7 @@ const words = [
 function PreFooter() {
   const [word, setWord] = useState(words[0]);
   const [count, setCount] = useState(0);
+  const [isLargerThan700] = useMediaQuery("(min-width: 700px)");
 
   useEffect(() => {
     let counter = count;
@@ -41,15 +42,16 @@ function PreFooter() {
 
   return (
     <Flex
-      h={["150px", "100px"]}
       bg="black.300"
       w="full"
       justify="center"
       alignItems="center"
+      py="10px"
     >
       <Flex
         flexDir={["column", "row"]}
-        justify="start"
+        justify={isLargerThan700 ? "center" : "start"}
+        flexWrap={isLargerThan700 ? "wrap" : "nowrap"}
         alignItems="center"
         w={["300px", "550px"]}
         gap="10px"

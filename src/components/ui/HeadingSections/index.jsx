@@ -2,15 +2,7 @@ import { Flex, Text, Heading, Highlight } from "@chakra-ui/react";
 
 export const HeadingSections = ({ HighlightTitle, title, text }) => {
   return (
-    <Flex
-      h="auto"
-      w={["full"]}
-      marginTop="45px"
-      marginBottom="45px"
-      alignItems="center"
-      flexDir="column"
-      gap="30px"
-    >
+    <Flex h="auto" w="full" alignItems="center" flexDir="column" gap="30px">
       <Heading
         fontSize="40px"
         lineHeigth="50px"
