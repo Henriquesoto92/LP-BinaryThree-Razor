@@ -1,4 +1,4 @@
-import { Flex, Text, Heading, SimpleGrid, } from "@chakra-ui/react";
+import { Flex, SimpleGrid, } from "@chakra-ui/react";
 import { HeadingSections } from "../ui/HeadingSections";
 import { CardTestimonials } from "./CardTestimonials";
 
@@ -47,6 +47,7 @@ export const Testimonials = () => {
       <SimpleGrid minChildWidth="250px" spacing="20px" justifyItems="center">
         {testimonialsArray.map((testimonial) => (
           <CardTestimonials
+            key={testimonial.name}
             name={testimonial.name}
             text={testimonial.text}
             image={testimonial.image}
