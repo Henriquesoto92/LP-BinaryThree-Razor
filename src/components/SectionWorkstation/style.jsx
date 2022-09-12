@@ -17,7 +17,6 @@ export const BoxWorkstation = styled.div`
 
   div h2 {
     font-family: "Inter";
-    font-style: normal;
     font-weight: 700;
     font-size: 32px;
     line-height: 42px;

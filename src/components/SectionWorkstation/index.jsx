@@ -1,5 +1,5 @@
 import { Flex } from "@chakra-ui/react";
-import { HeadingSections, TextEspecial } from "../ui";
+import { HeadingSections} from "../ui";
 import { BoxWorkstation, CardImg, Container } from "./style";
 
 export const SectionWorkstation = () => {
