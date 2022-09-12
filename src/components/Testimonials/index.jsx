@@ -4,7 +4,7 @@ import { CardTestimonials } from "./CardTestimonials";
 
 const testimonialsArray = [
   {
-    image: "https://bit.ly/dan-abramov",
+    image: "../public/images/feniximg.jpeg",
     text: "Meu nome é Matheus, sou estudante de programação, com 2 anos de experiencia em Marketing Digital e Edição de Videos. Apaixonado por tecnologia e games desde pequeno, sonho em um dia trabalhar na area de Desenvolvimento de Games",
     name: "Matheus Van Dyke",
     role: "UX-UI / Dev",
