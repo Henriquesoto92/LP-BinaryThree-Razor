@@ -1,4 +1,4 @@
-import { Flex, Text, Avatar, Divider } from "@chakra-ui/react";
+import { Flex, Text, Avatar, Divider, Image } from "@chakra-ui/react";
 
 export const CardTestimonials = ({ image, text, name, role }) => {
   return (
@@ -12,10 +12,15 @@ export const CardTestimonials = ({ image, text, name, role }) => {
       alignItems="start"
       flexDir="column"
       gap="10px"
+      position="relative"
     >
       <Avatar name={name} src={image} width="70px" height="70px" />
-      <Text color="#9BA9B4">
-        <Divider w="15px" />
+      <Image
+        src="../../../public/images/aspas.svg"
+        position="absolute"
+        left="80px"
+      />
+      <Text color="#9BA9B4" textIndent="50px" textAlign="left">
         {text}
       </Text>
       <Divider />

@@ -1,4 +1,4 @@
-import { Flex } from "@chakra-ui/react";
+import { Divider, Flex } from "@chakra-ui/react";
 import {
   Footer,
   SectionHeader,
@@ -16,10 +16,15 @@ function LandingPage() {
       <Navbar />
       <Flex flexDir="column" justifyItems="center" px="10vw" gap="5vh">
         <SectionHeader />
+        <Divider />
         <SectionFeature />
+        <Divider />
         <SectionWorkstation />
+        <Divider />
         <SectionZAP />
+        <Divider />
         <SectionTestimonials />
+        <Divider />
         <SectionCall />
       </Flex>
       <Footer />
