@@ -16,8 +16,8 @@ const testimonialsArray = [
     role: "Tech Lead / Dev / UX-UI Design",
   },
   {
-    image: "https://bit.ly/dan-abramov",
-    text: "Essa pessoa fez o site site site fez site Essa pessoa fez o site site site fez site Essa pessoa fez o site site site fez site Essa pessoa fez o site site site fez site Essa pessoa fez o site site site fez site Essa pessoa fez o site site site fez site Essa pessoa fez o site site site fez site",
+    image: "../public/images/Shiellyn.jpeg",
+    text: "Meu nome é Shiellyn, tenho 20 anos sou estudante de programação e moro em Guarulhos - SP. Atualmente estudo Desenvolvimento fullstack, mas tenho uma preferência maior pelo Frontend.",
     name: "Shiellyn Bruna",
     role: "Scrum Master / Dev",
   },
