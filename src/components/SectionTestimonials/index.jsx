@@ -28,6 +28,7 @@ const testimonialsArray = [
     role: "Apresentador / Dev / M-FOR(I)",
   },
 ];
+
 export const SectionTestimonials = () => {
   return (
     <Flex h="auto" w="full" alignItems="center" flexDir="column" gap="30px">
