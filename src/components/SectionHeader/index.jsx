@@ -48,7 +48,7 @@ export const SectionHeader = () => {
           Saiba Mais
         </Button>
       </Flex>
-      <Image src="../../../../public/images/foto-header.png" />
+      <Image src="../../../../public/images/Foto-header.png" />
     </Flex>
   );
 };

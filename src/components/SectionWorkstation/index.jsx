@@ -1,6 +1,8 @@
 import { Flex } from "@chakra-ui/react";
 import { HeadingSections } from "../ui";
 import { CardWorkstation } from "./CardWorkstation.jsx";
+import AOS from "aos";
+import { useEffect } from "react";
 
 const workstationArray = [
   {
@@ -27,6 +29,10 @@ const workstationArray = [
 ];
 
 export const SectionWorkstation = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <Flex h="auto" w="full" alignItems="center" flexDir="column" gap="30px">
       <HeadingSections
@@ -36,15 +42,19 @@ export const SectionWorkstation = () => {
       />
       <Flex />
       <Flex alignItems="center" flexDir="column" h="100%" w="100%" gap="50px">
-        {workstationArray.map((workstation) => (
-          <CardWorkstation
+        {workstationArray.map((workstation, index) => (
+          <div
             key={workstation.title}
-            image={workstation.image}
-            text={workstation.text}
-            title={workstation.title}
-            highlightTitle={workstation.highlightTitle}
-            alt={workstation.alt}
-          />
+            data-aos={index % 2 ? "fade-left" : "fade-right"}
+          >
+            <CardWorkstation
+              image={workstation.image}
+              text={workstation.text}
+              title={workstation.title}
+              highlightTitle={workstation.highlightTitle}
+              alt={workstation.alt}
+            />
+          </div>
         ))}
       </Flex>
     </Flex>

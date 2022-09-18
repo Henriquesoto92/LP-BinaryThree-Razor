@@ -9,6 +9,8 @@ import {
 } from "react-icons/ai";
 import { CardFeature } from "./CardFeature";
 import { HeadingSections } from "../ui/HeadingSections";
+import { useEffect } from "react";
+import Aos from "aos";
 
 const featureArray = [
   {
@@ -44,6 +46,9 @@ const featureArray = [
 ];
 
 export const SectionFeature = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <Flex
       flexDir="column"
@@ -62,12 +67,14 @@ export const SectionFeature = () => {
       />
       <SimpleGrid minChildWidth="340px" spacing="30px" justifyItems="center">
         {featureArray.map((feature) => (
-          <CardFeature
-            key={feature.heading}
-            icon={feature.icon}
-            heading={feature.heading}
-            text={feature.text}
-          />
+          <div key={feature.heading} data-aos="zoom-in">
+            <CardFeature
+              key={feature.heading}
+              icon={feature.icon}
+              heading={feature.heading}
+              text={feature.text}
+            />
+          </div>
         ))}
       </SimpleGrid>
     </Flex>
