@@ -1,18 +1,18 @@
-<h1><strong>Hackathon - Landing Page </strong>🎯</h1>
+# 🎯**Hackathon - Landing Page**
 
-# **Sobre**
+## Sobre
 
 Essa landing page faz parte do Hackton proposto pelo
-<a href="https://teufuturo.io/">Teu futuro</a>
+[Teu futuro](https://teufuturo.io/)
 
-# **Objetivo**
+## Objetivo
 
-Criar, nos Squads, uma Landing Page com HTML + CSS e interações com usuários
+Criar, uma Landing Page com HTML + CSS e interações com usuários
 usando JS e controlando o versionamento com Git
 
-# **Requisitos**
+## Requisitos
 
-<h3><strong>A Landing page deve conter:</strong></h3>
+**A Landing page deve conter:**
 
 - Identificação do time (Foto, nome e contato)
 - Images
@@ -20,43 +20,69 @@ usando JS e controlando o versionamento com Git
 - minimo três 3 menus
 - Interação (clicar em um componente e abrir uma mensagem, por exemplo)
 
-<h3><strong>Diferencias:</strong></h3>
+**Diferencias:**
 
 - Responsividade básica
 - Padronização das cores através da teoria das cores (Adobe Color)
 - Imagens (cuidar com o licenciamento e direitos autorais)
 - Interação via JS
 
-# **Squad de desenvolvimento**
+# 👨‍💻👩‍💻**Squad de desenvolvimento**
 
-https://img.shields.io/github/followers/Henriquesoto92?style=social[Henrique Soto](https://github.com/Henriquesoto92)
-https://img.shields.io/github/followers/thiagojat?style=social
+[Henrique Soto](https://github.com/Henriquesoto92)
+[![MIT License](https://img.shields.io/github/followers/Henriquesoto92?style=social)](https://github.com/Henriquesoto92)
 [Thiago Avellaneda](https://github.com/thiagojat)
-https://img.shields.io/github/followers/matheus-vandyke?style=social
+[![MIT License](https://img.shields.io/github/followers/thiagojat?style=social)](https://github.com/thiagojat)
 [Matheus Van Dyke](https://github.com/matheus-vandyke)
-https://img.shields.io/github/followers/ShiellynFerr?style=social
+[![MIT License](https://img.shields.io/github/followers/matheus-vandyke?style=social)](https://github.com/matheus-vandyke)
 [Shiellyn Ferreira](https://github.com/ShiellynFerr)
+[![MIT License](https://img.shields.io/github/followers/ShiellynFerr?style=social)](https://github.com/ShiellynFerr)
 
-# **Inicialização**
+# 🚀**Inicialização**
 
-<h3><strong>Como instalar:</strong></h3>
+## Acesse via Web
 
-- Identificação do time (Foto, nome e contato)
-- Images
-- 1 video sobre o tema da LP
-- minimo três 3 menus
-- Interação (clicar em um componente e abrir uma mensagem, por exemplo)
+[Landing Page na Vercel](https://lp-binary-three-razor.vercel.app/)
 
-# **Tecnologias Utilizadas**
+## Rodando localmente
+
+Clone o projeto
+
+```bash
+  git clone git@github.com:Henriquesoto92/LP-BinaryThree-Razor.git
+```
+
+Entre no diretório do projeto
+
+```bash
+  cd LP-BinaryThree-Razor
+```
+
+Instale as dependências
+
+```bash
+  yarn
+```
+
+Inicie o servidor
+
+```bash
+  yarn dev
+```
+
+# 🛠**Stack utilizada**
+
+**Front-end:**
 
 - [React](https://pt-br.reactjs.org/)
-
 - [Chakra UI](https://chakra-ui.com/)
-
 - [Aos](https://michalsnik.github.io/aos/)
-
 - [Swiperjs](https://swiperjs.com/)
 
-# **LICENSE**
+**LICENSE**
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+[Razor](https://razor.com.br/)
 
-<strong>MIT</strong>
+## 📸Screenshot
+
+![Screenshot](https://user-images.githubusercontent.com/96528794/190929612-5cad4bd7-295f-4bf9-9017-96a531cb8c32.png)
