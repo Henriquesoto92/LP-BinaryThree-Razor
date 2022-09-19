@@ -13,7 +13,7 @@ Essa landing page faz parte do Hackton proposto pelo
 
 ## Objetivo
 
-Criar, uma Landing Page com HTML + CSS e interações com usuários
+Criar uma Landing Page com HTML, CSS e interações com usuários
 usando JS e controlando o versionamento com Git
 
 ## Requisitos
