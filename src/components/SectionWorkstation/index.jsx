@@ -16,7 +16,7 @@ const workstationArray = [
   {
     image1: "../../../public/images/intel-xeon.png",
     image2: "../../../public/images/epyc.png",
-    text: "Máquinas com processadores de última geração Intel ou AMD e até 64 núcleos. Customize com multiprocessamento de até 2 CPUs por PC e a linha Intel XEON e AMD Threadripper ou AMD Epyc.",
+    text: "Máquinas com processadores de última geração Intel ou AMD e até 64 núcleos. Customize com multiprocessamento de até 2 CPUs por PC e a linha Intel XEON e AMD Epyc.",
     title: "Processador Workaholic",
     highlightTitle: "Processador",
     alt: "processador",
