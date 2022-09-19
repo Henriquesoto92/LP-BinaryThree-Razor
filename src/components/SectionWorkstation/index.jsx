@@ -6,14 +6,14 @@ import { useEffect } from "react";
 
 const workstationArray = [
   {
-    image: "../../../public/gif/placadevideo.gif",
+    image: "../../../public/images/nvidia.png",
     text: "Seu tempo e dinheiro, a Worstation Pro é o melhor investimento que você pode fazer. Alcence a máxima velocidade e o extremo desempenho com as linhas Nvidia RTX Quadro.",
     title: "Chip Gráfico que não arrega",
     highlightTitle: "Chip Gráfico",
     alt: "placa de video",
   },
   {
-    image: "../../../public/gif/processador.gif",
+    image: "../../../public/images/intel-xeon.png",
     text: "Máquinas com processadores de última geração Intel ou AMD e até 64 núcleos. Customize com multiprocessamento de até 2 CPUs por PC e a linha Intel XEON e AMD Threadripper ou AMD Epyc.",
     title: "Processador Workaholic",
     highlightTitle: "Processador",
