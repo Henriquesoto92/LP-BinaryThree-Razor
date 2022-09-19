@@ -5,6 +5,12 @@
 Essa landing page faz parte do Hackton proposto pelo
 [Teu futuro](https://teufuturo.io/)
 
+## Conheça
+
+[Design no Figma](https://www.figma.com/file/aln30eM2gDVqaaVimn9sd8/Razor---Landing-Page---%23Squad-11---BinaryThree?node-id=0%3A29)
+
+[Apresentação no Canva](https://www.canva.com/design/DAFMn0Qc_0w/PEJDBNvsyYJPql9-Ti5dKw/view?utm_content=DAFMn0Qc_0w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
 ## Objetivo
 
 Criar, uma Landing Page com HTML + CSS e interações com usuários
@@ -26,6 +32,8 @@ usando JS e controlando o versionamento com Git
 - Padronização das cores através da teoria das cores (Adobe Color)
 - Imagens (cuidar com o licenciamento e direitos autorais)
 - Interação via JS
+
+
 
 # 👨‍💻👩‍💻**Squad de desenvolvimento**
 
