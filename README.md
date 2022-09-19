@@ -40,14 +40,14 @@ usando JS e controlando o versionamento com Git
 [Henrique Soto](https://github.com/Henriquesoto92)
 [![MIT License](https://img.shields.io/github/followers/Henriquesoto92?style=social)](https://github.com/Henriquesoto92)
 
-[Thiago Avellaneda](https://github.com/thiagojat)
-[![MIT License](https://img.shields.io/github/followers/thiagojat?style=social)](https://github.com/thiagojat)
-
 [Matheus Van Dyke](https://github.com/matheus-vandyke)
 [![MIT License](https://img.shields.io/github/followers/matheus-vandyke?style=social)](https://github.com/matheus-vandyke)
 
 [Shiellyn Ferreira](https://github.com/ShiellynFerr)
 [![MIT License](https://img.shields.io/github/followers/ShiellynFerr?style=social)](https://github.com/ShiellynFerr)
+
+[Thiago Avellaneda](https://github.com/thiagojat)
+[![MIT License](https://img.shields.io/github/followers/thiagojat?style=social)](https://github.com/thiagojat)
 
 # 🚀**Inicialização**
 
