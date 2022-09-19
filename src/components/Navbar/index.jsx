@@ -1,4 +1,4 @@
-import { Flex, Image, Link } from "@chakra-ui/react";
+import { Flex, Image,} from "@chakra-ui/react";
 
 export const Navbar = () => {
   return (
@@ -23,9 +23,9 @@ export const Navbar = () => {
         />
       </Flex>
       <Flex gap="100">
-        <Link><a href="#diferencialid"> Diferencial </a></Link>
-        <Link><a href="#produtoid"> Produto </a></Link>
-        <Link><a href="#criadoresid"> Criadores </a></Link>
+        <a href="#diferencialid"> Diferencial </a>
+        <a href="#produtoid"> Produto </a>
+        <a href="#criadoresid"> Criadores </a>
       </Flex>
     </Flex>
   );
