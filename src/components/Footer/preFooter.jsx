@@ -1,5 +1,6 @@
 import { Flex, Highlight, Image, Text, useMediaQuery } from "@chakra-ui/react";
 import { useEffect, useState } from "react";
+import { LogoNomeRazor, LogoRazor } from "../../assets";
 
 const words = [
   "Criadores",
@@ -28,17 +29,6 @@ function PreFooter() {
     }, 1500);
     return () => clearInterval(interval);
   }, [count]);
-
-  // const gerarPalavras = () => {
-  //   let count = 0;
-  //   setInterval(() => {
-  //     console.log(words[count]);
-  //     count++;
-  //     count === words.length ? (count = 0) : 0;
-  //   }, 1000);
-  // };
-
-  // gerarPalavras();
 
   return (
     <Flex
@@ -71,16 +61,8 @@ function PreFooter() {
           </Flex>
         ) : (
           <>
-            <Image
-              h="60px"
-              src="../../../public/images/logo-razor.svg"
-              alt="logo-razor"
-            />
-            <Image
-              h="40px"
-              src="../../../public/images/logo-nome-razor.svg"
-              alt="logo-nome-razor"
-            />
+            <Image h="60px" src={LogoRazor} alt="logo-razor" />
+            <Image h="40px" src={LogoNomeRazor} alt="logo-nome-razor" />
           </>
         )}
         {isLargerThan700 ? (

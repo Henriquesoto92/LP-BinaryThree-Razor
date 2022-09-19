@@ -3,27 +3,28 @@ import { HeadingSections } from "../ui";
 import { CardWorkstation } from "./CardWorkstation.jsx";
 import AOS from "aos";
 import { useEffect } from "react";
+import { Epyc, Nvidia, Prodigy, Radeon, Virtuos, Xeon } from "../../assets";
 
 const workstationArray = [
   {
-    image1: "../../../public/images/nvidia.png",
-    image2: "../../../public/images/radeon.png",
+    image1: Nvidia,
+    image2: Radeon,
     text: "Seu tempo e dinheiro, a Worstation Pro é o melhor investimento que você pode fazer. Alcence a máxima velocidade e o extremo desempenho com as linhas Nvidia RTX Quadro e AMD Radeon RX.",
     title: "Chip Gráfico que não arrega",
     highlightTitle: "Chip Gráfico",
     alt: "placa de video",
   },
   {
-    image1: "../../../public/images/intel-xeon.png",
-    image2: "../../../public/images/epyc.png",
+    image1: Xeon,
+    image2: Epyc,
     text: "Máquinas com processadores de última geração Intel ou AMD e até 64 núcleos. Customize com multiprocessamento de até 2 CPUs por PC e a linha Intel XEON e AMD Epyc.",
     title: "Processador Workaholic",
     highlightTitle: "Processador",
     alt: "processador",
   },
   {
-    image1: "../../../public/images/virtuos.png",
-    image2: "../../../public/images/prodigy.png",
+    image1: Virtuos,
+    image2: Prodigy,
     text: "Menos RGB, mais performance. As nossas máquinas não lembram um pisca-pisca de Natal ou raladores de cozinha. A Workstation Pro é lindo como todo computador tem que ser, discreto, com um design industrial e preparado para trabalhar.",
     title: "Design sem frescura",
     highlightTitle: "Design",
@@ -37,7 +38,14 @@ export const SectionWorkstation = () => {
   }, []);
 
   return (
-    <Flex id="produtoid" h="auto" w="full" alignItems="center" flexDir="column" gap="30px">
+    <Flex
+      id="produtoid"
+      h="auto"
+      w="full"
+      alignItems="center"
+      flexDir="column"
+      gap="30px"
+    >
       <HeadingSections
         HighlightTitle="workstations"
         title="workstations que não tem medo de pegar no pesado"

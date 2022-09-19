@@ -1,4 +1,5 @@
 import { Button, Flex, Heading, Image, Text } from "@chakra-ui/react";
+import { FotoHeader } from "../../assets";
 
 export const SectionHeader = () => {
   return (
@@ -56,7 +57,7 @@ export const SectionHeader = () => {
           Conheça a Razor
         </Button>
       </Flex>
-      <Image src="../../../../public/images/Foto-header.png" />
+      <Image src={FotoHeader} />
     </Flex>
   );
 };

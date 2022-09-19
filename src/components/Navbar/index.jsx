@@ -1,5 +1,5 @@
 import { Flex, Image, Link } from "@chakra-ui/react";
-import { logoNomeRazor, logoRazor } from "../../assets";
+import { LogoNomeRazor, LogoRazor } from "../../assets";
 
 export const Navbar = () => {
   return (
@@ -12,8 +12,8 @@ export const Navbar = () => {
       alignItems="center"
     >
       <Flex justify="start" alignItems="center" gap="10px" w="fit-content">
-        <Image h="60px" src={logoRazor} alt="logo-razor" />
-        <Image h="40px" src={logoNomeRazor} alt="logo-nome-razor" />
+        <Image h="60px" src={LogoRazor} alt="logo-razor" />
+        <Image h="40px" src={LogoNomeRazor} alt="logo-nome-razor" />
       </Flex>
       <Flex gap={["20px", "100px"]}>
         <Link as="a" href="#diferencialid">

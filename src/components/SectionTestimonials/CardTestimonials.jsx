@@ -7,6 +7,7 @@ import {
   IconButton,
 } from "@chakra-ui/react";
 import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
+import { Aspas } from "../../assets";
 
 export const CardTestimonials = ({
   image,
@@ -32,11 +33,7 @@ export const CardTestimonials = ({
     >
       <Flex flexDir="column" gap="10px" position="relative">
         <Avatar name={name} src={image} width="70px" height="70px" />
-        <Image
-          src="../../../public/images/aspas.svg"
-          position="absolute"
-          left="50px"
-        />
+        <Image src={Aspas} position="absolute" left="50px" />
         <Text color="#9BA9B4" textindent="50px" textAlign="left">
           {text}
         </Text>
