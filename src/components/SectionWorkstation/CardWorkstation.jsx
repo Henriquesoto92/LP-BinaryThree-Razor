@@ -1,15 +1,16 @@
 import {
   Flex,
   Text,
-  Image,
   Highlight,
   Heading,
   Box,
   useMediaQuery,
 } from "@chakra-ui/react";
+import "./styles.css";
 
 export const CardWorkstation = ({
-  image,
+  image1, 
+  image2,
   title,
   highlightTitle,
   text,
@@ -77,14 +78,18 @@ export const CardWorkstation = ({
         h="350px"
         boxShadow="0px 0px 20px rgb(255, 255, 255, 0.5)"
       >
-        <Image
+      <div id="cf" className="shadow">
+        <img alt="image1" className="bottom" src={image1} />
+        <img alt="image2" className="top" src={image2} />
+      </div>
+        {/* <Image
           height="100%"
           width="100%"
           objectFit="cover"
           borderRadius="12px"
           src={image}
           alt={alt}
-        />
+        /> */}
       </Box>
     </Flex>
   );

@@ -6,21 +6,24 @@ import { useEffect } from "react";
 
 const workstationArray = [
   {
-    image: "../../../public/images/nvidia.png",
+    image1: "../../../public/images/nvidia.png",
+    image2: "../../../public/images/radeon.png",
     text: "Seu tempo e dinheiro, a Worstation Pro é o melhor investimento que você pode fazer. Alcence a máxima velocidade e o extremo desempenho com as linhas Nvidia RTX Quadro.",
     title: "Chip Gráfico que não arrega",
     highlightTitle: "Chip Gráfico",
     alt: "placa de video",
   },
   {
-    image: "../../../public/images/intel-xeon.png",
+    image1: "../../../public/images/intel-i9.png",
+    image2: "../../../public/images/ryzen.png",
     text: "Máquinas com processadores de última geração Intel ou AMD e até 64 núcleos. Customize com multiprocessamento de até 2 CPUs por PC e a linha Intel XEON e AMD Threadripper ou AMD Epyc.",
     title: "Processador Workaholic",
     highlightTitle: "Processador",
     alt: "processador",
   },
   {
-    image: "../../../public/images/prodigy.png",
+    image1: "../../../public/images/prodigy.png",
+    image2: "../../../public/images/virtuos.png",
     text: "Menos RGB, mais performance. As nossas máquinas não lembram um pisca-pisca de Natal ou raladores de cozinha. A Workstation Pro é lindo como todo computador tem que ser, discreto, com um design industrial e preparado para trabalhar.",
     title: "Design sem frescura",
     highlightTitle: "Design",
@@ -48,7 +51,8 @@ export const SectionWorkstation = () => {
             data-aos={index % 2 ? "fade-left" : "fade-right"}
           >
             <CardWorkstation
-              image={workstation.image}
+              image1={workstation.image1}
+              image2={workstation.image2}
               text={workstation.text}
               title={workstation.title}
               highlightTitle={workstation.highlightTitle}
