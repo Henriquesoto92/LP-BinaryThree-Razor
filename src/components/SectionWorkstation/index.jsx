@@ -8,7 +8,7 @@ const workstationArray = [
   {
     image1: "../../../public/images/nvidia.png",
     image2: "../../../public/images/radeon.png",
-    text: "Seu tempo e dinheiro, a Worstation Pro é o melhor investimento que você pode fazer. Alcence a máxima velocidade e o extremo desempenho com as linhas Nvidia RTX Quadro.",
+    text: "Seu tempo e dinheiro, a Worstation Pro é o melhor investimento que você pode fazer. Alcence a máxima velocidade e o extremo desempenho com as linhas Nvidia RTX Quadro e AMD Radeon RX.",
     title: "Chip Gráfico que não arrega",
     highlightTitle: "Chip Gráfico",
     alt: "placa de video",
