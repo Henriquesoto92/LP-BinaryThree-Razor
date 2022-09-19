@@ -20,7 +20,7 @@ const workstationArray = [
     alt: "processador",
   },
   {
-    image: "../../../public/gif/placadevideo.gif",
+    image: "../../../public/images/prodigy.png",
     text: "Menos RGB, mais performance. As nossas máquinas não lembram um pisca-pisca de Natal ou raladores de cozinha. A Workstation Pro é lindo como todo computador tem que ser, discreto, com um design industrial e preparado para trabalhar.",
     title: "Design sem frescura",
     highlightTitle: "Design",
