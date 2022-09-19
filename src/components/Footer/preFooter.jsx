@@ -48,16 +48,8 @@ function PreFooter() {
       >
         {!isLargerThan700 ? (
           <Flex gap="10px" alignItems="center">
-            <Image
-              h="60px"
-              src="../../../public/images/logo-razor.svg"
-              alt="logo-razor"
-            />
-            <Image
-              h="40px"
-              src="../../../public/images/logo-nome-razor.svg"
-              alt="logo-nome-razor"
-            />
+            <Image h="60px" src={LogoRazor} alt="logo-razor" />
+            <Image h="40px" src={LogoNomeRazor} alt="logo-nome-razor" />
           </Flex>
         ) : (
           <>
@@ -92,7 +84,7 @@ function PreFooter() {
                 styles={{
                   py: "1",
                   fontFamily: "especial",
-                  fontSize: "45px",
+                  fontSize: "38px",
                   color: "purple.100",
                 }}
               >

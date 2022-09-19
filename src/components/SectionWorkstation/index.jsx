@@ -39,7 +39,7 @@ export const SectionWorkstation = () => {
 
   return (
     <Flex
-      id="produtoid"
+      id="produtosId"
       h="auto"
       w="full"
       alignItems="center"

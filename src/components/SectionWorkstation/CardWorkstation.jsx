@@ -75,7 +75,7 @@ export const CardWorkstation = ({
         bg="black"
         minW={["250px", "350px"]}
         maxW="350px"
-        h="350px"
+        h={["250px", "350px"]}
         boxShadow="0px 0px 20px rgb(255, 255, 255, 0.5)"
       >
         <div id="cf" className="shadow">

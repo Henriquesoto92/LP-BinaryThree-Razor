@@ -21,6 +21,7 @@ export const SectionZAP = () => {
         <Button
           as="a"
           href="https://api.whatsapp.com/send?phone=555430466350&text=Olá. Estou no site da Razor e gostaria de mais informações."
+          target="_blank"
           bg="purple.100"
           color="#C5D2DC"
           fontWeight="500"

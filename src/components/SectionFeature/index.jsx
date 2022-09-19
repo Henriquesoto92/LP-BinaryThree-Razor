@@ -57,7 +57,7 @@ export const SectionFeature = () => {
       w="full"
       justify="center"
       gap="30px"
-      id="diferencialid"
+      id="diferencialId"
     >
       <HeadingSections
         HighlightTitle="Aumentar a Performance"
@@ -66,7 +66,11 @@ export const SectionFeature = () => {
         simulações em realtime, análises complexas de dados e softwares de alta
         exigência."
       />
-      <SimpleGrid minChildWidth="340px" spacing="30px" justifyItems="center">
+      <SimpleGrid
+        minChildWidth={["250px", "340px"]}
+        spacing="30px"
+        justifyItems="center"
+      >
         {featureArray.map((feature) => (
           <div key={feature.heading} data-aos="zoom-in">
             <CardFeature

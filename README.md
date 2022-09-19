@@ -31,10 +31,13 @@ usando JS e controlando o versionamento com Git
 
 [Henrique Soto](https://github.com/Henriquesoto92)
 [![MIT License](https://img.shields.io/github/followers/Henriquesoto92?style=social)](https://github.com/Henriquesoto92)
+
 [Thiago Avellaneda](https://github.com/thiagojat)
 [![MIT License](https://img.shields.io/github/followers/thiagojat?style=social)](https://github.com/thiagojat)
+
 [Matheus Van Dyke](https://github.com/matheus-vandyke)
 [![MIT License](https://img.shields.io/github/followers/matheus-vandyke?style=social)](https://github.com/matheus-vandyke)
+
 [Shiellyn Ferreira](https://github.com/ShiellynFerr)
 [![MIT License](https://img.shields.io/github/followers/ShiellynFerr?style=social)](https://github.com/ShiellynFerr)
 
@@ -75,12 +78,16 @@ Inicie o servidor
 **Front-end:**
 
 - [React](https://pt-br.reactjs.org/)
+
 - [Chakra UI](https://chakra-ui.com/)
+
 - [Aos](https://michalsnik.github.io/aos/)
+
 - [Swiperjs](https://swiperjs.com/)
 
 **LICENSE**
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+
 [Razor](https://razor.com.br/)
 
 ## 📸Screenshot

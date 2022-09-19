@@ -2,7 +2,13 @@ import { Flex, Icon, Text, Heading } from "@chakra-ui/react";
 
 export const CardFeature = ({ icon, heading, text }) => {
   return (
-    <Flex flexDir="column" alignItems="center" w="340px" h="230px" gap="16px">
+    <Flex
+      flexDir="column"
+      alignItems="center"
+      w={["250px", "340px"]}
+      h="230px"
+      gap="16px"
+    >
       <Flex
         borderRadius="full"
         bg="purple.100"

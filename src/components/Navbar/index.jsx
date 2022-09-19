@@ -16,13 +16,13 @@ export const Navbar = () => {
         <Image h="40px" src={LogoNomeRazor} alt="logo-nome-razor" />
       </Flex>
       <Flex gap={["20px", "100px"]}>
-        <Link as="a" href="#diferencialid">
+        <Link as="a" href="#diferencialId">
           Diferencial
         </Link>
-        <Link as="a" href="#diferencialid">
+        <Link as="a" href="#produtosId">
           Produto
         </Link>
-        <Link as="a" href="#diferencialid">
+        <Link as="a" href="#criadoresId">
           Criadores
         </Link>
       </Flex>

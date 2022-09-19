@@ -27,6 +27,7 @@ export const SectionCall = () => {
         <Button
           as="a"
           href="https://razor.com.br/contato/"
+          target="_blank"
           bg="purple.100"
           color="#C5D2DC"
           fontWeight="500"
