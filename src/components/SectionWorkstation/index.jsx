@@ -22,8 +22,8 @@ const workstationArray = [
     alt: "processador",
   },
   {
-    image1: "../../../public/images/prodigy.png",
-    image2: "../../../public/images/virtuos.png",
+    image1: "../../../public/images/virtuos.png",
+    image2: "../../../public/images/prodigy.png",
     text: "Menos RGB, mais performance. As nossas máquinas não lembram um pisca-pisca de Natal ou raladores de cozinha. A Workstation Pro é lindo como todo computador tem que ser, discreto, com um design industrial e preparado para trabalhar.",
     title: "Design sem frescura",
     highlightTitle: "Design",
