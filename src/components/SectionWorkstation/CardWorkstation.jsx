@@ -9,7 +9,7 @@ import {
 import "./styles.css";
 
 export const CardWorkstation = ({
-  image1, 
+  image1,
   image2,
   title,
   highlightTitle,
@@ -42,7 +42,7 @@ export const CardWorkstation = ({
       >
         <Heading
           fontSize="32px"
-          lineHeigth="42px"
+          lineheigth="42px"
           fontWeight="700"
           textAlign={["center", "left"]}
         >
@@ -78,18 +78,10 @@ export const CardWorkstation = ({
         h="350px"
         boxShadow="0px 0px 20px rgb(255, 255, 255, 0.5)"
       >
-      <div id="cf" className="shadow">
-        <img alt="image1" className="bottom" src={image1} />
-        <img alt="image2" className="top" src={image2} />
-      </div>
-        {/* <Image
-          height="100%"
-          width="100%"
-          objectFit="cover"
-          borderRadius="12px"
-          src={image}
-          alt={alt}
-        /> */}
+        <div id="cf" className="shadow">
+          <img alt="image1" className="bottom" src={image1} />
+          <img alt="image2" className="top" src={image2} />
+        </div>
       </Box>
     </Flex>
   );

@@ -1,48 +1,46 @@
 #cf {
-    position:relative;
-    margin:0 auto;
-    border-radius:15px;
-    background:black;
-    min-width:250px, 350px;
-    max-width:350px;
-    line-height:350px;
-    box-shadow:0px 0px 20px rgb(255, 255, 255, 0.5);
-  }
-  
-  #cf img {
-    background-color: black;
-    position:absolute;
-    left:0;
-    -webkit-transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -o-transition: opacity 1s ease-in-out;
-    transition: opacity 1s ease-in-out;
-    min-width:250px, 350px;
-    max-width:350px;
-    align-content: center;
-    border-radius:15px;
-  }
-  
-  @keyframes cf3FadeInOut {
-    0% {
-    opacity:1;
+  position: relative;
+  margin: 0 auto;
+  border-radius: 15px;
+  background: black;
+  min-width: 250px, 350px;
+  max-width: 350px;
+}
+
+#cf img {
+  background-color: black;
+  position: absolute;
+  left: 0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  min-width: 250px, 350px;
+  max-width: 350px;
+  align-content: center;
+  border-radius: 15px;
+}
+
+@keyframes cf3FadeInOut {
+  0% {
+    opacity: 1;
   }
   45% {
-  opacity:1;
+    opacity: 1;
   }
   55% {
-  opacity:0;
+    opacity: 0;
   }
   100% {
-  opacity:0;
+    opacity: 0;
   }
-  }
-  
-  #cf img.top {
+}
+
+#cf img.top {
   animation-name: cf3FadeInOut;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
   animation-duration: 5s;
   animation-direction: alternate;
-  border-radius:15px;
-  }
+  border-radius: 15px;
+}

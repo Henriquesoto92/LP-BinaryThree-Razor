@@ -37,7 +37,7 @@ export const CardTestimonials = ({
           position="absolute"
           left="50px"
         />
-        <Text color="#9BA9B4" textIndent="50px" textAlign="left">
+        <Text color="#9BA9B4" textindent="50px" textAlign="left">
           {text}
         </Text>
       </Flex>

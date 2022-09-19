@@ -5,7 +5,7 @@ export const HeadingSections = ({ HighlightTitle, title, text }) => {
     <Flex h="auto" w="full" alignItems="center" flexDir="column" gap="30px">
       <Heading
         fontSize="40px"
-        lineHeigth="50px"
+        lineheigth="50px"
         textAlign="center"
         fontWeight="800"
       >
@@ -26,7 +26,7 @@ export const HeadingSections = ({ HighlightTitle, title, text }) => {
       <Text
         fontWeight="400"
         fontSize="20px"
-        lineHeight="30px"
+        lineheigth="30px"
         textAlign="center"
         color="#9BA9B4"
       >
