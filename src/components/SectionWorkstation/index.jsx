@@ -37,7 +37,7 @@ export const SectionWorkstation = () => {
   }, []);
 
   return (
-    <Flex h="auto" w="full" alignItems="center" flexDir="column" gap="30px">
+    <Flex id="produtoid" h="auto" w="full" alignItems="center" flexDir="column" gap="30px">
       <HeadingSections
         HighlightTitle="workstations"
         title="workstations que não tem medo de pegar no pesado"

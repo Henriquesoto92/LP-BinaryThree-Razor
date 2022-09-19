@@ -12,7 +12,7 @@ import "swiper/css/pagination";
 // eslint-disable-next-line import/no-unresolved
 import "swiper/css/navigation";
 
-const testimonialsArray = [
+const testimonialsArray=[
   {
     image: "../public/images/Foto-Matheus.jpeg",
     text: "Meu nome é Matheus, sou estudante de programação, com 2 anos de experiencia em Marketing Digital e Edição de Videos. Apaixonado por tecnologia e games desde pequeno, sonho em um dia trabalhar na area de Desenvolvimento de Games",
@@ -49,7 +49,7 @@ const testimonialsArray = [
 
 export const SectionTestimonials = () => {
   return (
-    <Flex h="auto" w="full" alignItems="center" flexDir="column" gap="30px">
+    <Flex id="criadoresid" h="auto" w="full" alignItems="center" flexDir="column" gap="30px">
       <HeadingSections
         HighlightTitle="Criadores"
         title="Criadores da Landing Page"

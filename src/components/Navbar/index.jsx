@@ -23,10 +23,9 @@ export const Navbar = () => {
         />
       </Flex>
       <Flex gap="100">
-        <Link> Empresa </Link>
-        <Link> Produto </Link>
-        <Link> Diferencial </Link>
-        <Link> Criadores </Link>
+        <Link><a href="#diferencialid"> Diferencial </a></Link>
+        <Link><a href="#produtoid"> Produto </a></Link>
+        <Link><a href="#criadoresid"> Criadores </a></Link>
       </Flex>
     </Flex>
   );

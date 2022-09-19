@@ -57,6 +57,7 @@ export const SectionFeature = () => {
       w="full"
       justify="center"
       gap="30px"
+      id="diferencialid"
     >
       <HeadingSections
         HighlightTitle="Aumentar a Performance"
