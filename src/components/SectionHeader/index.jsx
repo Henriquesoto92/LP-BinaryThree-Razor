@@ -1,9 +1,15 @@
-import { Button, Flex, Heading, Image, Text } from "@chakra-ui/react";
-import { FotoHeader } from "../../assets";
+import { Button, Flex, Heading, Text } from "@chakra-ui/react";
 
 export const SectionHeader = () => {
   return (
-    <Flex h="auto" w="full" alignItems="center" flexDir="column" gap="30px">
+    <Flex
+      h="auto"
+      w="full"
+      alignItems="center"
+      flexDir="column"
+      gap="30px"
+      mt="-30px"
+    >
       <Heading
         fontSize={["40px", "52px"]}
         lineheight="62px"
@@ -12,6 +18,14 @@ export const SectionHeader = () => {
       >
         Computadores profissionais de alta performance
       </Heading>
+      <Flex maxH="100vh" justify="start">
+        <video autoPlay muted loop>
+          <source
+            type="video/mp4"
+            src="https://workstation.razor.com.br/wp-content/themes/razortheme/assets/video/banner/banner-video.mp4"
+          />
+        </video>
+      </Flex>
       <Text
         fontWeight="400"
         fontSize="20px"
@@ -59,7 +73,7 @@ export const SectionHeader = () => {
           Conheça a Razor
         </Button>
       </Flex>
-      <Image src={FotoHeader} />
+      {/* <Image src={FotoHeader} /> */}
     </Flex>
   );
 };
