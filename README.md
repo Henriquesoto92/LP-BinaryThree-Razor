@@ -11,7 +11,7 @@ Essa landing page faz parte do Hackton proposto pelo
 
 [Design no Figma](https://www.figma.com/file/aln30eM2gDVqaaVimn9sd8/Razor---Landing-Page---%23Squad-11---BinaryThree?node-id=0%3A29)
 
-[Apresentação no Canva](https://www.canva.com/design/DAFMn0Qc_0w/PEJDBNvsyYJPql9-Ti5dKw/view?utm_content=DAFMn0Qc_0w&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+[Apresentação no Canva](https://www.canva.com/design/DAFMn0Qc_0w/hGojr2q0XYMJulRQx3y8DA/view?utm_content=DAFMn0Qc_0w&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
 
 ## Objetivo
 
